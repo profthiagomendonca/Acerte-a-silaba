@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_xxxx"]
+[ext_resource type="AudioStream" path="res://assets/audio/Abertura.mp3" id="2_music"]
+[ext_resource type="AudioStream" path="res://assets/audio/Acerto.mp3" id="3_acerto"]
+[ext_resource type="AudioStream" path="res://assets/audio/Erro.mp3" id="4_erro"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xxxx")
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_music")
+
+[node name="SfxCorrect" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_acerto")
+
+[node name="SfxError" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_erro")
