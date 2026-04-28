@@ -1,7 +1,5 @@
 # Acerte a Sílaba - Jogo Educativo de Alfabetização
 
-![Ícone do Jogo](icon.svg)
-
 Este é um jogo educativo desenvolvido para auxiliar no processo de alfabetização de crianças, focando na consciência fonológica e na síntese silábica. O jogo desafia o jogador a completar palavras selecionando a sílaba correta entre opções geradas dinamicamente.
 
 ## 🚀 Funcionalidades
